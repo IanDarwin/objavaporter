@@ -1,0 +1,4 @@
+= objavaport
+
+Reads a Maven POM file, spits out an include file for use with
+the OpenBSD project's java-maven module.
