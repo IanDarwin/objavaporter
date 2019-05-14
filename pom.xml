@@ -47,6 +47,7 @@
 	</dependencies>
 
 	<build>
+		<!-- Might as well run this thing on itself -->
 		<defaultGoal>package</defaultGoal>
 		<plugins>
 			<plugin>
