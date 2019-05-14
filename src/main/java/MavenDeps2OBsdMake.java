@@ -50,7 +50,7 @@ public class MavenDeps2OBsdMake {
 	}
 	static String format(Dep d) {
 		// {com/darwinsys/darwinsys-api/1.1.3/}darwinsys-api-1.1.3.jar
-		return String.format("{%s/%s/%s/}%s-%s.jar",
+		return String.format("%s/%s/%s/ %s-%s.jar",
 			d.group.replaceAll("\\.", "/"),
 			d.artifact,
 			d.vers,
